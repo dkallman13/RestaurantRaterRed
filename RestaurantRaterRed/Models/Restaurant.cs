@@ -13,7 +13,7 @@ namespace RestaurantRaterRed.Models
         public string Address { get; set; }
         public int Rating { get; set; }
     }
-    public class RestaurantDbContenxt : DbContext
+    public class RestaurantDbContext : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
     }
